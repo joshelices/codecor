@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Inmuebles en venta | CODECOR Inmobiliaria
+    </title>
+
+    <meta
+        name="description"
+        content="Descubre los inmuebles disponibles en CODECOR. Encuentra viviendas, pisos, casas, terrenos, garajes y otras propiedades en venta."
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <link
+        rel="canonical"
+        href="https://codecor.es/inmuebles/inmueble.html"
+    >
+
+    <!-- Open Graph -->
+
+    <meta
+        property="og:title"
+        content="Inmuebles en venta | CODECOR Inmobiliaria"
+    >
+
+    <meta
+        property="og:description"
+        content="Descubre las propiedades disponibles en CODECOR y encuentra el inmueble que estás buscando."
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:locale"
+        content="es_ES"
+    >
+
+    <meta
+        property="og:image"
+        content="../images/logo/logo-codecor-transparente.png"
+    >
+
+    <meta
+        property="og:image:alt"
+        content="Logo de CODECOR"
+    >
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+
+</head>
+
+<body>
+
+
+    <!-- =========================================
+         HEADER
+    ========================================== -->
+
+    <header
+        class="header"
+        id="header"
+    >
+
+        <div class="header-container">
+
+
+            <!-- LOGO -->
+
+            <a
+                href="../index.html"
+                class="logo"
+            >
+
+                <img
+                    src="../images/logo/logo-codecor-transparente.png"
+                    alt="CODECOR - Rota El Porteño"
+                >
+
+            </a>
+
+
+            <!-- NAVEGACIÓN -->
+
+            <nav
+                class="nav"
+                id="nav"
+            >
+
+                <a
+                    href="../index.html#inicio"
+                    class="nav-link"
+                >
+                    Inicio
+                </a>
+
+
+                <a
+                    href="../index.html#inmuebles"
+                    class="nav-link active"
+                >
+                    Inmuebles
+                </a>
+
+
+                <a
+                    href="../index.html#ubicaciones"
+                    class="nav-link"
+                >
+                    Ubicaciones
+                </a>
+
+
+                <a
+                    href="../index.html#nosotros"
+                    class="nav-link"
+                >
+                    Nosotros
+                </a>
+
+
+                <a
+                    href="../index.html#contacto"
+                    class="nav-link"
+                >
+                    Contacto
+                </a>
+
+            </nav>
+
+
+            <!-- MENÚ MÓVIL -->
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Abrir menú"
+            >
+                ☰
+            </button>
+
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================================
+         FICHA DEL INMUEBLE
+    ========================================== -->
+
+    <main>
+
+
+        <section class="property-detail">
+
+            <div class="section-container">
+
+
+                <!-- =================================
+                     GALERÍA
+                ================================== -->
+
+                <div class="property-gallery">
+
+
+                    <!-- IMAGEN PRINCIPAL -->
+
+                    <div
+                        class="property-main-image"
+                        id="main-property-image"
+                    >
+
+
+                        <button
+                            class="gallery-prev"
+                            id="gallery-prev"
+                            aria-label="Imagen anterior"
+                        >
+                            ‹
+                        </button>
+
+
+                        <button
+                            class="gallery-next"
+                            id="gallery-next"
+                            aria-label="Imagen siguiente"
+                        >
+                            ›
+                        </button>
+
+
+                    </div>
+
+
+
+                    <!-- MINIATURAS DINÁMICAS -->
+
+                    <div
+                        class="property-thumbnails"
+                        id="property-thumbnails"
+                    >
+
+                        <!--
+                            Las fotografías se generan
+                            automáticamente desde
+                            inmuebles.js
+                        -->
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- =================================
+                     INFORMACIÓN
+                ================================== -->
+
+                <div class="property-detail-content">
+
+
+                    <!-- INFORMACIÓN PRINCIPAL -->
+
+                    <div class="property-detail-main">
+
+
+                        <span
+                            class="section-label"
+                            id="property-location"
+                        >
+                            ROTA · CÁDIZ
+                        </span>
+
+
+                        <h1
+                            id="property-title"
+                        >
+                            Cargando inmueble...
+                        </h1>
+
+
+                        <span
+                            class="property-price"
+                            id="property-price"
+                        >
+                            -
+                        </span>
+
+
+                        <div class="gold-line"></div>
+
+
+                        <p
+                            class="property-description"
+                            id="property-description"
+                        >
+                            Cargando información del inmueble...
+                        </p>
+
+
+                    </div>
+
+
+
+                    <!-- =================================
+                         CARACTERÍSTICAS
+                    ================================== -->
+
+                    <div class="property-features">
+
+
+                        <div>
+
+                            <span>
+                                Tipo
+                            </span>
+
+                            <strong
+                                id="property-type"
+                            >
+                                -
+                            </strong>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                Superficie
+                            </span>
+
+                            <strong
+                                id="property-metros"
+                            >
+                                -
+                            </strong>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                Habitaciones
+                            </span>
+
+                            <strong
+                                id="property-rooms"
+                            >
+                                -
+                            </strong>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                Baños
+                            </span>
+
+                            <strong
+                                id="property-bathrooms"
+                            >
+                                -
+                            </strong>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                Ubicación
+                            </span>
+
+                            <strong
+                                id="property-city"
+                            >
+                                -
+                            </strong>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                Estado
+                            </span>
+
+                            <strong
+                                id="property-status"
+                            >
+                                -
+                            </strong>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <!-- =================================
+                         CONTACTO
+                    ================================== -->
+
+                    <div class="property-contact">
+
+                        <h2>
+                            ¿Quieres visitar este inmueble?
+                        </h2>
+
+                        <p>
+                            Contacta con nosotros y te ayudaremos a concertar una visita.
+                        </p>
+
+
+                        <div class="property-contact-buttons">
+
+                            <button
+                                type="button"
+                                class="btn btn-primary"
+                                id="request-visit-button"
+                            >
+
+                                Solicitar visita
+
+                                <span>
+                                    →
+                                </span>
+
+                            </button>
+
+
+                            <a
+                                href="https://wa.me/34722849191"
+                                class="btn btn-secondary"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                WhatsApp
+                            </a>
+
+                        </div>
+
+
+                        <!-- =====================================
+                            FORMULARIO SOLICITAR VISITA
+                        ====================================== -->
+
+                        <div
+                            class="visit-form-container"
+                            id="visit-form-container"
+                            style="display: none;"
+                        >
+
+                            <h3>
+                                Solicitar visita
+                            </h3>
+
+                            <p>
+                                Déjanos tus datos y nos pondremos
+                                en contacto contigo para concertar
+                                la visita.
+                            </p>
+
+
+                            <form
+                                id="visit-form"
+                                action="https://formspree.io/f/mnpqwpvg"
+                                method="POST"
+                            >
+
+                                <div>
+
+                                    <label for="visit-name">
+                                        Nombre
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="visit-name"
+                                        name="nombre"
+                                        placeholder="Tu nombre"
+                                        required
+                                    >
+
+                                </div>
+
+
+                                <div>
+
+                                    <label for="visit-phone">
+                                        Teléfono
+                                    </label>
+
+                                    <input
+                                        type="tel"
+                                        id="visit-phone"
+                                        name="telefono"
+                                        placeholder="Tu teléfono"
+                                        required
+                                    >
+
+                                </div>
+
+
+                                <div>
+
+                                    <label for="visit-email">
+                                        Email
+                                    </label>
+
+                                    <input
+                                        type="email"
+                                        id="visit-email"
+                                        name="email"
+                                        placeholder="Tu email"
+                                        required
+                                    >
+
+                                </div>
+
+
+                                <div>
+
+                                    <label for="visit-date">
+                                        Día preferente
+                                    </label>
+
+                                    <input
+                                        type="date"
+                                        id="visit-date"
+                                        name="fecha"
+                                    >
+
+                                </div>
+
+
+                                <div>
+
+                                    <label for="visit-message">
+                                        Mensaje
+                                    </label>
+
+                                    <textarea
+                                        id="visit-message"
+                                        name="mensaje"
+                                        rows="4"
+                                        placeholder="Cuéntanos cuándo te vendría bien realizar la visita..."
+                                    ></textarea>
+
+
+                                    <!-- POLÍTICA DE PRIVACIDAD -->
+
+                                    <div class="privacy-consent">
+
+                                        <label>
+
+                                            <input
+                                                type="checkbox"
+                                                name="privacidad"
+                                                value="aceptada"
+                                                required
+                                            >
+
+                                            <span>
+                                                He leído y acepto la
+                                                <a
+                                                    href="../politica-privacidad.html"
+                                                    target="_blank"
+                                                >
+                                                    Política de privacidad
+                                                </a>.
+                                            </span>
+
+                                        </label>
+
+                                    </div>
+
+
+                                    <!-- INMUEBLE AUTOMÁTICO -->
+
+                                    <input
+                                        type="hidden"
+                                        id="visit-property"
+                                        name="inmueble"
+                                    >
+
+
+                                    <button
+                                        type="submit"
+                                        class="btn btn-primary"
+                                    >
+                                        Enviar solicitud
+
+                                        <span>
+                                            →
+                                        </span>
+
+                                    </button>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <p class="footer-slogan">
+                Calidad · Compromiso · Confianza
+            </p>
+
+
+            <div class="footer-social">
+
+                <a href="https://www.instagram.com/codecor_rota_s.l?stkn=cng0bmV2cTF4Y3dw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Instagram
+                </a>
+
+                <a href="https://www.facebook.com/share/18RRurSbyQ/?mibextid=wwXIfr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Facebook
+                </a>
+
+                <a
+                    href="https://wa.me/34722849191"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    WhatsApp
+                </a>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+
+                <p>
+                    © 2026 CODECOR · Rota El Porteño
+                </p>
+
+
+                <div>
+
+                
+
+                    <a href="../aviso-legal.html">
+                        Aviso legal
+                    </a>
+
+                    <a href="../politica-privacidad.html">
+                        Privacidad
+                    </a>
+
+                    <a href="../politica-cookies.html">
+                        Cookies
+                    </a>
+
+                    <a href="../terminos-condiciones.html">
+                        Términos y condiciones
+                    </a>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================================
+         CHAT
+    ========================================== -->
+
+    <button
+        class="chat-button"
+        id="chat-button"
+        aria-label="Abrir asistente CODECOR"
+    >
+
+        <span>
+            💬
+        </span>
+
+        <small>
+            ¿Hablamos?
+        </small>
+
+    </button>
+
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="../js/inmuebles.js"></script>
+
+    <script src="../js/localidades.js"></script>
+
+    <script src="../js/script.js"></script>
+
+
+</body>
+
+</html>

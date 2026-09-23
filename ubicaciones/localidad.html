@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title id="location-page-title">
+        Inmuebles | CODECOR
+    </title>
+
+    <meta
+        id="location-meta-description"
+        name="description"
+        content="Descubre nuestros inmuebles disponibles en CODECOR."
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <link
+        id="location-canonical"
+        rel="canonical"
+        href="https://codecor.es/ubicaciones/localidad.html"
+    >
+
+    <!-- Open Graph -->
+
+    <meta
+        id="location-og-title"
+        property="og:title"
+        content="Inmuebles | CODECOR"
+    >
+
+    <meta
+        id="location-og-description"
+        property="og:description"
+        content="Descubre nuestros inmuebles disponibles en CODECOR."
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:locale"
+        content="es_ES"
+    >
+
+    <meta
+        property="og:image"
+        content="../images/logo/logo-codecor-transparente.png"
+    >
+
+    <meta
+        property="og:image:alt"
+        content="Logo de CODECOR"
+    >
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         HEADER
+    ========================================== -->
+
+    <header
+        class="header"
+        id="header"
+    >
+
+        <div class="header-container">
+
+
+            <!-- LOGO -->
+
+            <a
+                href="../index.html"
+                class="logo"
+            >
+
+                <img
+                    src="../images/logo/logo-codecor-transparente.png"
+                    alt="CODECOR - Rota El Porteño"
+                >
+
+            </a>
+
+
+
+            <!-- NAVEGACIÓN -->
+
+            <nav
+                class="nav"
+                id="nav"
+            >
+
+                <a
+                    href="../index.html#inicio"
+                    class="nav-link"
+                >
+                    Inicio
+                </a>
+
+
+                <a
+                    href="../index.html#inmuebles"
+                    class="nav-link active"
+                >
+                    Inmuebles
+                </a>
+
+
+                <a
+                    href="../index.html#ubicaciones"
+                    class="nav-link"
+                >
+                    Ubicaciones
+                </a>
+
+
+                <a
+                    href="../index.html#nosotros"
+                    class="nav-link"
+                >
+                    Nosotros
+                </a>
+
+
+                <a
+                    href="../index.html#contacto"
+                    class="nav-link"
+                >
+                    Contacto
+                </a>
+
+            </nav>
+
+
+
+            <!-- MENÚ MÓVIL -->
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Abrir menú"
+            >
+                ☰
+            </button>
+
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================================
+         CONTENIDO
+    ========================================== -->
+
+    <main>
+
+
+        <!-- =========================================
+             HERO LOCALIDAD
+        ========================================== -->
+
+        <section class="location-hero">
+
+            <div class="section-container">
+
+
+                <span
+                    class="section-label"
+                    id="location-label"
+                >
+                    CODECOR · CÁDIZ
+                </span>
+
+
+                <h1 id="location-title">
+
+                    Inmuebles
+
+                </h1>
+
+
+                <div class="gold-line"></div>
+
+
+                <p id="location-description">
+
+                    Descubre nuestra selección de
+                    propiedades disponibles.
+
+                </p>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             CATÁLOGO
+        ========================================== -->
+
+        <section class="property-list">
+
+            <div class="section-container">
+
+
+                <!-- FILTROS -->
+
+            
+            
+            <div class="property-filters">
+
+                <!-- TIPO -->
+
+                <select id="property-type-filter">
+
+                    <option value="todos">
+                        Todos los inmuebles
+                    </option>
+
+                    <option value="piso">
+                        Pisos
+                    </option>
+
+                    <option value="casa">
+                        Casas
+                    </option>
+
+                    <option value="chalet">
+                        Chalets
+                    </option>
+
+                    <option value="apartamento">
+                        Apartamentos
+                    </option>
+
+                    <option value="campo">
+                        Campos
+                    </option>
+
+                    <option value="garaje">
+                        Garajes
+                    </option>
+
+                </select>
+
+
+                <!-- OPERACIÓN -->
+
+                <select id="property-operation-filter">
+
+                    <option value="todos">
+                        Todos los estados
+                    </option>
+
+                    <option value="venta">
+                        Venta
+                    </option>
+
+                    <option value="reservado">
+                        Reservado
+                    </option>
+
+                </select>
+
+
+                <!-- GARAJE -->
+
+                <select id="property-garage-filter">
+
+                    <option value="todos">
+                        Garaje
+                    </option>
+
+                    <option value="si">
+                        Con garaje
+                    </option>
+
+                    <option value="no">
+                        Sin garaje
+                    </option>
+
+                </select>
+
+
+                <!-- ORDEN -->
+
+                <select id="property-sort">
+
+                    <option value="destacados">
+                        Más recientes
+                    </option>
+
+                    <option value="precio-menor">
+                        Precio: menor a mayor
+                    </option>
+
+                    <option value="precio-mayor">
+                        Precio: mayor a menor
+                    </option>
+
+                    <option value="metros-mayor">
+                        Mayor superficie
+                    </option>
+
+                </select>
+
+            </div>
+
+
+
+                <!-- CONTADOR -->
+
+                <div
+                    class="property-results"
+                    id="property-results"
+                >
+                </div>
+
+
+
+                <!-- GRID -->
+
+                <div
+                    class="property-grid"
+                    id="location-property-grid"
+                >
+                </div>
+
+
+
+                <!-- SIN RESULTADOS -->
+
+                <div
+                    id="no-properties"
+                    style="display: none;"
+                >
+
+                    <h3>
+                        No hemos encontrado inmuebles
+                    </h3>
+
+                    <p>
+                        Prueba a cambiar los filtros
+                        de búsqueda.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             CAPTACIÓN
+        ========================================== -->
+
+        <section class="captacion">
+
+            <div class="section-container">
+
+
+                <div class="captacion-text">
+
+
+                    <span
+                        class="section-label"
+                        id="captacion-label"
+                    >
+                        ¿TIENES UN INMUEBLE?
+                    </span>
+
+
+                    <h2>
+                        También podemos
+                        ayudarte a venderlo.
+                    </h2>
+
+
+                    <div class="gold-line"></div>
+
+
+                    <p id="captacion-description">
+
+                        Si tienes una propiedad y estás
+                        pensando en venderla, ponte en
+                        contacto con nosotros.
+
+                    </p>
+
+
+                    <a
+                        href="../index.html#captacion"
+                        class="btn btn-primary"
+                    >
+
+                        Quiero vender mi inmueble
+
+                        <span>
+                            →
+                        </span>
+
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <p class="footer-slogan">
+                Calidad · Compromiso · Confianza
+            </p>
+
+
+           <div class="footer-social">
+
+                <a href="https://www.instagram.com/codecor_rota_s.l?stkn=cng0bmV2cTF4Y3dw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Instagram
+                </a>
+
+                <a href="https://www.facebook.com/share/18RRurSbyQ/?mibextid=wwXIfr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Facebook
+                </a>
+
+                <a
+                    href="https://wa.me/34722849191"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    WhatsApp
+                </a>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 CODECOR · Rota El Porteño
+                </p>
+
+
+                <div>
+
+                    <a href="../aviso-legal.html">
+                        Aviso legal
+                    </a>
+
+                    <a href="../politica-privacidad.html">
+                        Privacidad
+                    </a>
+
+                    <a href="../politica-cookies.html">
+                        Cookies
+                    </a>
+                    <a href="../terminos-condiciones.html">
+                        Términos y condiciones
+                    </a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================================
+         CHAT
+    ========================================== -->
+
+    <button
+        class="chat-button"
+        id="chat-button"
+        aria-label="Abrir asistente CODECOR"
+    >
+
+        <span>
+            💬
+        </span>
+
+        <small>
+            ¿Hablamos?
+        </small>
+
+    </button>
+
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="../js/inmuebles.js"></script>
+
+    <script src="../js/localidades.js"></script>
+
+    <script src="../js/script.js"></script>
+
+
+</body>
+
+</html>

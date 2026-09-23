@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+>
+
+    <!-- INICIO -->
+
+    <url>
+        <loc>https://codecor.es/</loc>
+    </url>
+
+
+    <!-- CONÓCENOS -->
+
+    <url>
+        <loc>https://codecor.es/conocenos.html</loc>
+    </url>
+
+
+    <!-- LOCALIDADES -->
+
+    <url>
+        <loc>https://codecor.es/ubicaciones/localidad.html?localidad=Rota</loc>
+    </url>
+
+    
+
+    <url>
+        <loc>https://codecor.es/ubicaciones/localidad.html?localidad=Chipiona</loc>
+    </url>
+
+    
+
+
+    <!-- INMUEBLES -->
+
+    <url>
+        <loc>https://codecor.es/inmuebles/inmueble.html?id=chalet-rota-001</loc>
+    </url>
+
+    <url>
+        <loc>https://codecor.es/inmuebles/inmueble.html?id=casa-rota-002</loc>
+    </url>
+
+    <url>
+        <loc>https://codecor.es/inmuebles/inmueble.html?id=casa-chiclana-001</loc>
+    </url>
+
+    <url>
+        <loc>https://codecor.es/inmuebles/inmueble.html?id=casa-jerez-001</loc>
+    </url>
+
+    <url>
+        <loc>https://codecor.es/inmuebles/inmueble.html?id=campo-rota-001</loc>
+    </url>
+
+    <url>
+        <loc>https://codecor.es/inmuebles/inmueble.html?id=garaje-rota-001</loc>
+    </url>
+
+
+</urlset>

@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Conócenos | CODECOR Inmobiliaria</title>
+
+    <meta
+        name="description"
+        content="Conoce CODECOR, nuestra historia, nuestra forma de trabajar y el compromiso que ponemos en cada operación inmobiliaria."
+    >
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        rel="canonical"
+        href="https://codecor.es/conocenos.html"
+    >
+    <!-- Open Graph -->
+
+    <meta
+        property="og:title"
+        content="Conócenos | CODECOR Inmobiliaria"
+    >
+
+    <meta
+        property="og:description"
+        content="Conoce la historia de CODECOR, nuestra forma de trabajar y nuestro compromiso con cada cliente."
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:locale"
+        content="es_ES"
+    >
+
+    <meta
+        property="og:image"
+        content="images/logo/logo-codecor-transparente.png"
+    >
+
+    <meta
+        property="og:image:alt"
+        content="Logo de CODECOR"
+    >
+    <style>
+
+        /* =========================================
+           CODECOR · PÁGINA CONÓCENOS
+        ========================================= */
+
+        .conocenos-page {
+            margin: 0;
+            background: #111111;
+            color: #ffffff;
+            font-family: Georgia, "Times New Roman", serif;
+        }
+
+
+        /* =========================================
+           CABECERA
+        ========================================= */
+
+        .conocenos-header {
+            width: 100%;
+            padding: 25px 0;
+            background: #111111;
+            border-bottom: 1px solid rgba(196, 151, 82, 0.25);
+        }
+
+
+        .conocenos-header-inner {
+            width: min(1200px, 90%);
+            margin: 0 auto;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+
+        .conocenos-logo {
+            width: 180px;
+        }
+
+
+        .conocenos-logo img {
+            width: 100%;
+            display: block;
+        }
+
+
+        .conocenos-nav {
+            display: flex;
+            gap: 30px;
+        }
+
+
+        .conocenos-nav a {
+            color: #ffffff;
+            text-decoration: none;
+
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+
+            transition: 0.3s;
+        }
+
+
+        .conocenos-nav a:hover {
+            color: #c89b5b;
+        }
+
+
+        /* =========================================
+           HERO
+        ========================================= */
+
+        .conocenos-hero {
+
+            min-height: calc(100vh - 100px);
+
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            justify-content: center;
+
+            text-align: center;
+
+            padding: 80px 20px;
+
+            box-sizing: border-box;
+
+            position: relative;
+
+            background:
+                radial-gradient(
+                    circle at 50% 20%,
+                    #292929 0%,
+                    #111111 55%,
+                    #090909 100%
+                );
+        }
+
+
+        /* ARCO DECORATIVO */
+
+        .conocenos-arc {
+
+            position: absolute;
+
+            width: 520px;
+            height: 260px;
+
+            border: 2px solid rgba(200, 155, 91, 0.75);
+
+            border-bottom: 0;
+
+            border-radius: 520px 520px 0 0;
+
+            top: 80px;
+
+            left: 50%;
+
+            transform: translateX(-50%);
+
+            opacity: 0.8;
+        }
+
+
+        .conocenos-star {
+
+            position: absolute;
+
+            top: 105px;
+            left: calc(50% - 245px);
+
+            color: #ffffff;
+
+            font-size: 32px;
+
+            text-shadow:
+                0 0 15px #ffffff,
+                0 0 30px rgba(255,255,255,0.5);
+        }
+
+
+        .conocenos-hero-content {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+
+        .conocenos-logo-hero {
+            display: block;
+            width: 340px;
+            max-width: 75%;
+            margin: 0 auto 45px;
+            position: relative;
+            z-index: 3;
+        }
+
+
+        .conocenos-intro {
+
+            color: #c89b5b;
+
+            font-size: 18px;
+
+            letter-spacing: 5px;
+
+            text-transform: uppercase;
+
+            margin-bottom: 25px;
+        }
+
+
+        .conocenos-hero h1 {
+
+            margin: 0;
+
+            font-size: clamp(38px, 6vw, 72px);
+
+            font-weight: 400;
+
+            line-height: 1.1;
+
+            color: #ffffff;
+        }
+
+
+        .conocenos-hero h1 span {
+
+            color: #c89b5b;
+        }
+
+
+        .conocenos-divider {
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            gap: 20px;
+
+            margin: 35px auto;
+        }
+
+
+        .conocenos-divider::before,
+        .conocenos-divider::after {
+
+            content: "";
+
+            width: 80px;
+
+            height: 1px;
+
+            background: #c89b5b;
+        }
+
+
+        .conocenos-heart {
+
+            color: #c89b5b;
+
+            font-size: 28px;
+        }
+
+
+        .conocenos-intro-text {
+
+            max-width: 720px;
+
+            margin: 0 auto;
+
+            color: #dddddd;
+
+            font-size: 20px;
+
+            line-height: 1.8;
+        }
+
+
+        /* =========================================
+           HISTORIA
+        ========================================= */
+
+        .conocenos-story {
+
+            width: min(900px, 88%);
+
+            margin: 0 auto;
+
+            padding: 120px 0;
+        }
+
+
+        .story-section {
+
+            text-align: center;
+
+            margin-bottom: 100px;
+        }
+
+
+        .story-label {
+
+            color: #c89b5b;
+
+            font-size: 14px;
+
+            letter-spacing: 4px;
+
+            text-transform: uppercase;
+
+            margin-bottom: 20px;
+        }
+
+
+        .story-section h2 {
+
+            font-size: clamp(32px, 5vw, 52px);
+
+            font-weight: 400;
+
+            color: #ffffff;
+
+            margin: 0 0 35px;
+        }
+
+
+        .story-section h2 span {
+
+            color: #c89b5b;
+        }
+
+
+        .story-section p {
+
+            max-width: 750px;
+
+            margin: 0 auto 22px;
+
+            color: #dddddd;
+
+            font-size: 19px;
+
+            line-height: 1.9;
+        }
+
+
+        /* =========================================
+           FRASES DESTACADAS
+        ========================================= */
+
+        .conocenos-quote {
+
+            margin: 100px 0;
+
+            padding: 60px 30px;
+
+            text-align: center;
+
+            border-top: 1px solid rgba(200,155,91,0.4);
+
+            border-bottom: 1px solid rgba(200,155,91,0.4);
+        }
+
+
+        .conocenos-quote p {
+
+            margin: 0;
+
+            font-size: clamp(27px, 4vw, 43px);
+
+            line-height: 1.4;
+
+            color: #ffffff;
+
+            font-weight: 400;
+        }
+
+
+        .conocenos-quote span {
+
+            color: #c89b5b;
+        }
+
+
+        /* =========================================
+           FINAL
+        ========================================= */
+
+        .conocenos-final {
+
+            min-height: 55vh;
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items: center;
+
+            justify-content: center;
+
+            text-align: center;
+
+            padding: 80px 20px;
+
+            background:
+                linear-gradient(
+                    to bottom,
+                    #111111,
+                    #080808
+                );
+        }
+
+
+        .conocenos-final-small {
+
+            color: #c89b5b;
+
+            letter-spacing: 5px;
+
+            font-size: 14px;
+
+            text-transform: uppercase;
+
+            margin-bottom: 25px;
+        }
+
+
+        .conocenos-final h2 {
+
+            max-width: 800px;
+
+            margin: 0 0 30px;
+
+            font-size: clamp(35px, 5vw, 60px);
+
+            font-weight: 400;
+
+            line-height: 1.2;
+        }
+
+
+        .conocenos-final h2 span {
+
+            color: #c89b5b;
+        }
+
+
+        .conocenos-final p {
+
+            max-width: 650px;
+
+            color: #cccccc;
+
+            font-size: 18px;
+
+            line-height: 1.8;
+
+            margin-bottom: 40px;
+        }
+
+
+        .conocenos-button {
+
+            display: inline-block;
+
+            padding: 15px 35px;
+
+            border: 1px solid #c89b5b;
+
+            color: #c89b5b;
+
+            text-decoration: none;
+
+            font-family: Arial, sans-serif;
+
+            font-size: 13px;
+
+            letter-spacing: 2px;
+
+            text-transform: uppercase;
+
+            transition: 0.3s;
+        }
+
+
+        .conocenos-button:hover {
+
+            background: #c89b5b;
+
+            color: #111111;
+        }
+
+
+        /* =========================================
+           MÓVIL
+        ========================================= */
+
+        @media (max-width: 768px) {
+
+            .conocenos-header-inner {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+
+            .conocenos-nav {
+
+                gap: 15px;
+
+                flex-wrap: wrap;
+
+                justify-content: center;
+            }
+
+
+            .conocenos-nav a {
+                font-size: 11px;
+            }
+
+
+            .conocenos-hero {
+
+                min-height: 85vh;
+
+                padding: 70px 20px;
+            }
+
+
+            .conocenos-arc {
+
+                width: 320px;
+
+                height: 160px;
+
+                top: 70px;
+            }
+
+
+           
+            .conocenos-logo-hero {
+
+                width: 280px;
+
+                margin-bottom: 35px;
+            }
+
+
+            .conocenos-intro {
+
+                font-size: 14px;
+
+                letter-spacing: 3px;
+            }
+
+
+            .conocenos-intro-text {
+
+                font-size: 17px;
+            }
+
+
+            .conocenos-story {
+
+                padding: 80px 0;
+            }
+
+
+            .story-section p {
+
+                font-size: 17px;
+            }
+
+
+            .conocenos-quote {
+
+                margin: 70px 0;
+
+                padding: 45px 20px;
+            }
+
+        }
+
+    </style>
+
+</head>
+<!-- =====================================
+     AVISO DE COOKIES
+====================================== -->
+
+<div id="cookie-banner" class="cookie-banner">
+
+    <div class="cookie-content">
+
+        <div class="cookie-text">
+
+            <strong>
+                Tu privacidad importa
+            </strong>
+
+            <p>
+                Utilizamos cookies para mejorar tu experiencia
+                de navegación y analizar el funcionamiento de
+                nuestra web. Puedes aceptar, rechazar o
+                configurar las cookies.
+            </p>
+
+            <a href="politica-cookies.html">
+                Más información
+            </a>
+
+        </div>
+
+        <div class="cookie-buttons">
+
+            <button
+                id="cookie-reject"
+                class="cookie-btn cookie-reject"
+            >
+                Rechazar
+            </button>
+
+            <button
+                id="cookie-config"
+                class="cookie-btn cookie-config"
+            >
+                Configurar
+            </button>
+
+            <button
+                id="cookie-accept"
+                class="cookie-btn cookie-accept"
+            >
+                Aceptar todas
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<body class="conocenos-page">
+
+
+ 
+
+    <!-- =========================================
+         HERO
+    ========================================= -->
+
+    <main>
+
+
+        <section class="conocenos-hero">
+
+
+            <div class="conocenos-arc"></div>
+
+           
+            </div>
+
+
+            <div class="conocenos-hero-content">
+
+
+                <img
+                    src="images/logo/logo-codecor-transparente.png"
+                    alt="CODECOR Rota El Porteño"
+                    class="conocenos-logo-hero"
+                >
+
+
+                <div class="conocenos-intro">
+                    Hoy quiero contaros
+                </div>
+
+
+                <h1>
+
+                    Qué significa
+                    <span>CODECOR</span>
+
+                    <br>
+
+                    para nosotros
+
+                </h1>
+
+
+                <div class="conocenos-divider">
+
+                    <span class="conocenos-heart">
+                        ♡
+                    </span>
+
+                </div>
+
+
+                <p class="conocenos-intro-text">
+
+                    Porque detrás de cada casa hay una historia.
+                    Y detrás de CODECOR también existe una historia
+                    que merece ser contada.
+
+                </p>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =========================================
+             HISTORIA
+        ========================================= -->
+
+        <section class="conocenos-story">
+
+
+            <div class="story-section">
+
+                <div class="story-label">
+                    Nuestra historia
+                </div>
+
+
+                <h2>
+                    CODECOR no es solo un nombre.
+                </h2>
+
+
+                <p>
+
+                    Es el sueño que comenzó mi abuelo,
+                    quien junto a mi padre sentó las bases
+                    de lo que hoy somos.
+
+                </p>
+
+
+                <p>
+
+                    Una historia construida con esfuerzo,
+                    trabajo y dedicación. Una historia que
+                    comenzó con una familia y que, con el paso
+                    del tiempo, se convirtió en mucho más.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="conocenos-quote">
+
+                <p>
+
+                    <span>Una familia.</span>
+                    <br>
+                    Un sueño.
+                    <br>
+                    Una historia que continúa.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="story-section">
+
+                <div class="story-label">
+                    Hoy
+                </div>
+
+
+                <h2>
+                    Seguimos construyendo
+                    <span>nuestro camino.</span>
+                </h2>
+
+
+                <p>
+
+                    Hoy CODECOR sigue creciendo con la misma
+                    ilusión con la que comenzó todo.
+
+                </p>
+
+
+                <p>
+
+                    Creemos que una inmobiliaria no consiste
+                    únicamente en comprar, vender o encontrar
+                    una vivienda. Consiste en acompañar a las
+                    personas durante una decisión importante
+                    de sus vidas.
+
+                </p>
+
+
+                <p>
+
+                    Por eso queremos ofrecer un trato cercano,
+                    profesional y basado en la confianza.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="conocenos-quote">
+
+                <p>
+
+                    Porque un inmueble puede ser una propiedad,
+                    <br>
+
+                    pero un hogar es
+                    <span>mucho más.</span>
+
+                </p>
+
+            </div>
+
+
+
+            <div class="story-section">
+
+                <div class="story-label">
+                    CODECOR · Rota El Porteño
+                </div>
+
+
+                <h2>
+                    Gracias por confiar
+                    <span>en nosotros.</span>
+                </h2>
+
+
+                <p>
+
+                    Cada persona que llega a CODECOR forma parte
+                    de esta historia.
+
+                </p>
+
+
+                <p>
+
+                    Y nosotros queremos seguir escribiéndola
+                    contigo.
+
+                </p>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =========================================
+             FINAL
+        ========================================= -->
+
+        <section class="conocenos-final">
+
+
+            <div class="conocenos-final-small">
+                ¿Hablamos?
+            </div>
+
+
+            <h2>
+
+                Tu próxima historia
+                <span>puede empezar aquí.</span>
+
+            </h2>
+
+
+            <p>
+
+                Estamos aquí para ayudarte a encontrar
+                el lugar que estás buscando y acompañarte
+                durante todo el proceso.
+
+            </p>
+
+
+            <a
+                href="index.html#contacto"
+                class="conocenos-button"
+            >
+
+                ← Volver
+
+            </a>
+
+
+        </section>
+
+
+    </main>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
