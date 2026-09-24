@@ -202,15 +202,15 @@ const inmuebles = [
         "Finca rústica situada en Rota, con una amplia superficie de terreno y múltiples posibilidades.",
 
     imagenPrincipal:
-        "images/inmuebles/finca-la-marquesa-1.jpg",
+        "images/inmuebles/finca-la-marquesa-005-1.jpg",
 
     fotos: [
 
-        "images/inmuebles/finca-la-marquesa-1.jpg",
+        "images/inmuebles/finca-la-marquesa-005-1.jpg",
 
-        "images/inmuebles/finca-la-marquesa-2.jpg",
+        "images/inmuebles/finca-la-marquesa-005-2.jpg",
 
-        "images/inmuebles/finca-la-marquesa-3.jpg"
+        "images/inmuebles/finca-la-marquesa-005-3.jpg"
 
     ]
 },
